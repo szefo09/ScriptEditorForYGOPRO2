@@ -7,3 +7,5 @@ So just select a folder containing scripts, and do everything. (Beware, doing ev
 
 **Warning! This program will not magically fix any ocgcore dependant stuff, so scripts may still not work properly on YGOPRO2 or other 
 simulator that uses different ocgcore than Percy.**
+
+![image](https://i.imgur.com/7BtzQ5i.png)
