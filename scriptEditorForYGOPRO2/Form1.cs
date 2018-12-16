@@ -93,7 +93,7 @@ namespace scriptEditorForYGOPRO2
                     string fileID = Path.GetFileNameWithoutExtension(file.Name).Replace("c", "");
                     string replacement = "$1 " + fileID;
                     richTextBox1.Text = Regex.Replace(richTextBox1.Text, pattern, replacement);
-                    richTextBox1.Text = richTextBox1.Text.Replace("s.", fileID + ".");
+                    richTextBox1.Text = richTextBox1.Text.Replace("s.", "c"+fileID + ".");
                     File.WriteAllText(file.FullName, richTextBox1.Text);
                 }));
 
