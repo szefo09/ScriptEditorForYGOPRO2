@@ -53,7 +53,7 @@ namespace scriptEditorForYGOPRO2
         private void button1_Click(object sender, EventArgs e)
         {
             FileInfo file = (FileInfo)listBox1.SelectedItem;
-            string fileID = Path.GetFileNameWithoutExtension(file.Name).Replace("c", "");
+            string fileID = Path.GetFileNameWithoutExtension(file.Name);
             richTextBox1.Text=richTextBox1.Text.Replace("s.",fileID+".");
         }
 
